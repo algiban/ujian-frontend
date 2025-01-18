@@ -22,7 +22,7 @@ const Login = () => {
         "http://localhost:8080/login",
         {
           username: userName,
-          tgl_lahir: tanggalLahir,
+          tanggal_lahir: tanggalLahir,
         },
         {
           headers: {
